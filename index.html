@@ -1,0 +1,160 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="css/style.css" type="text/css">
+    <link rel="stylesheet" type="text/css" href="css/mobile.css">
+    <script src="js/mobile.js" type="text/javascript"></script>
+    <script src="darkMode.js"></script>
+    <!-- JavaScript for pop-up -->
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            setTimeout(function () {
+                document.getElementById("popup").style.display = "block";
+            }, 2000); // Adjust the delay (in milliseconds) as needed
+        });
+
+        function closePopup() {
+            document.getElementById("popup").style.display = "none";
+        }
+    </script>
+</head>
+<body>
+    <div id="page">
+        <div id="header">
+            <div>
+                <a href="index.html" class="logo"><img src="images (2)/nilanjana.jpeg" alt=""></a>
+                <button id="darkModeToggle" onclick="toggleDarkMode()">Dark Mode</button>
+                <ul id="navigation">
+                    <li class="selected">
+                        <a href="index.html">Home</a>
+                    </li>
+                    <li>
+                        <a href="about.html">About</a>
+                    </li>
+                    <li class="menu">
+                        <a href="projects.html">Projects</a>
+                        <ul class="primary">
+                            <li>
+                                <a href="proj1.html">"দুধ চা"(Dudh Chaa)- Milk Tea</a>
+                            </li>
+                            <li>
+								<a href="proj2.html">"হলুদ চা"(Holud Cha)- Turmeric Tea</a>
+							</li>
+							<li>
+								<a href="proj3.html">"আদা চা"(Ada Cha)- Ginger Tea</a>
+							</li>
+							<li>
+								<a href="proj4.html">"রং চা"(Rong Cha)- Lemon Tea/ Green Tea</a>
+							</li>
+							<li>
+								<a href="proj5.html">"মসলা চা"(Moshla Cha)- Masala Tea</a>
+							</li>
+                        </ul>
+                    </li>
+                    <li class="menu">
+                        <a href="blog.html">Blog</a>
+                        <ul class="primary">
+                            <li>
+                                <a href="SE.html">A Social Experiment</a>
+                            </li>
+                            <li>
+								<a href="Poster1.html">A Musical Night</a>
+							</li>
+							<li>
+								<a href="Poster2.html">"শুভ নববর্ষ Tea Celebration: Sip by Sip, In Tradition We Delight"</a>
+							</li>                           
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="contact.html">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div id="body" class="home">
+            <div class="header">
+                <div>
+                    <img src="images (2)/Tea.jpg" alt="Tea">
+                    <h1>চা-(Tea)</h1>
+                    <h2>My Comfort Drink</h2>
+                    <a href="about.html" class="more">Learn More</a>
+                    <h3>FEATURED PROJECTS</h3>
+                    <ul>
+                        <li>
+                            <a href="projects.html"><img src="images (2)/1.jpg" alt=""></a>
+                        </li>
+                        <li>
+							<a href="projects.html"><img src="images (2)/2.jpg" alt=""></a>
+						</li>
+						<li>
+							<a href="projects.html"><img src="images (2)/3.jpg" alt=""></a>
+						</li>
+						<li>
+							<a href="projects.html"><img src="images (2)/4.jpg" alt=""></a>
+						</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="body">
+                <div>
+                    <h1>THE GOAL OF THE PORTFOLIO</h1>
+                    <p>This website consists of a general theme of my portfolio which I had to prepare for my favourite drink . This is my favourite drink , so I decided why not merge it with my website assignment for this course as well. Hope everyone will enjoy it!</p>
+                </div>
+            </div>
+            <div class="footer">
+                <div>
+                    <ul>
+                        <!-- <li>
+                            <h1>FEATURED SOCIAL ASSIGNMENTS</h1>
+                            <a href="blog.html"><img src="images (2)/SE.jpg" alt=""><span></span></a>
+                        </li>
+                        <li>
+                            <h1>MY POSTERS</h1>
+                            <ul>
+                                <li>
+                                    <a href="blog.html"><img src="images (2)/Poster1.jpg" alt=""></a>
+                                    <h1>A MUSICAL NIGHT</h1>
+                                    <span>NOVEMBER 01, 2023- NOVEMBER 05, 2023</span>
+                                    <a href="blog.html" class="more">Read More</a>
+                                </li>
+                                <li>
+									<a href="blog.html"><img src="images (2)/Poster2.png" alt=""></a>
+									<h1>"শুভ নববর্ষ Tea Celebration: Sip by Sip, In Tradition We Delight"</h1>
+									<span>APRIL 14, 2023</span>
+									<a href="blog.html" class="more">Read More</a>
+								</li>
+                            </ul>
+                        </li> -->
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div id="footer">
+            <div class="connect">
+                <div>
+                    <h1>FOLLOW ME ON</h1>
+					<div>
+						<a href="https://www.facebook.com/nilanjana.shib/" class="facebook">facebook</a>
+						<a href="https://www.instagram.com/blue_margarita_?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==/" class="instagram">instagram</a>
+					
+					</div>
+				</div>
+			</div>
+			<div class="footnote">
+				<div>
+					<p>&copy; BY NILANJANA SHIB 23319125 | ALL RIGHTS RESERVED</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="popup">
+        <div id="popup-content">
+            <p>Welcome to My Portfolio! Enjoy your visit.</p>
+            <button onclick="closePopup()">Close</button>
+        </div>
+    </div>
+</body>
+</html>

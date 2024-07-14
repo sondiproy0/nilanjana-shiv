@@ -1,0 +1,139 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="css/style.css" type="text/css">
+    <link rel="stylesheet" type="text/css" href="css/mobile.css">
+    <script src="js/mobile.js" type="text/javascript"></script>
+    <script src="darkMode.js"></script>
+    <!-- JavaScript for pop-up -->
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            setTimeout(function () {
+                document.getElementById("popup").style.display = "block";
+            }, 2000); // Adjust the delay (in milliseconds) as needed
+        });
+
+        function closePopup() {
+            document.getElementById("popup").style.display = "none";
+        }
+    </script>
+</head>
+<body>
+    <div id="page">
+        <div id="header">
+            <div>
+                <a href="index.html" class="logo"><img src="images (2)/Prothom.png" alt=""></a>
+                <button id="darkModeToggle" onclick="toggleDarkMode()">Dark Mode</button>
+                <ul id="navigation">
+                    <li class="selected">
+                        <a href="index.html">Home</a>
+                    </li>
+                    <li>
+                        <a href="about.html">About</a>
+                    </li>
+                    <li class="menu">
+                        <a href="projects.html">Projects</a>
+                        <ul class="primary">
+                            <li>
+                                <a href="proj1.html">"দুধ চা"(Dudh Chaa)- Milk Tea</a>
+                            </li>
+                            <li>
+								<a href="proj2.html">"হলুদ চা"(Holud Cha)- Turmeric Tea</a>
+							</li>
+							<li>
+								<a href="proj3.html">"আদা চা"(Ada Cha)- Ginger Tea</a>
+							</li>
+							<li>
+								<a href="proj4.html">"রং চা"(Rong Cha)- Lemon Tea/ Green Tea</a>
+							</li>
+							<li>
+								<a href="proj5.html">"মসলা চা"(Moshla Cha)- Masala Tea</a>
+							</li>
+                        </ul>
+                    </li>
+                    <li class="menu">
+                        <a href="blog.html">Blog</a>
+                        <ul class="primary">
+                            <li>
+                                <a href="SE.html">A Social Experiment</a>
+                            </li>
+                            <li>
+								<a href="Poster1.html">A Musical Night</a>
+							</li>
+							<li>
+								<a href="Poster2.html">"শুভ নববর্ষ Tea Celebration: Sip by Sip, In Tradition We Delight"</a>
+							</li>                           
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="contact.html">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+		<div id="body">
+			<div class="header">
+				<div>
+					<h1>Blog</h1>
+					<div class="article">
+						<ul>
+							<li>
+								<a href="Poster1.html"><img src="images (2)/Poster1.jpg" alt=""></a>
+								<h1>A Musical Night</h1>
+								<span>NOVEMBER 01, 2023- NOVEMBER 05, 2023</span>
+								<p>This poster has been designed by me following certain conditions assigned by my professor. The design choices aim to create a visually appealing and informative poster that not only attracts attention but also conveys the diversity and excitement of the November Music Festival at Tokyo Dome City.</p>
+								<a href="Poster1.html" class="more">Read More</a>
+							</li>
+							<li>
+								<a href="Poster2.html"><img src="images (2)/Poster2.png" alt=""></a>
+								<h1>"শুভ নববর্ষ Tea Celebration: Sip by Sip, In Tradition We Delight"</h1>
+								<span>April 14, 2023</span>
+								<p>This poster has been designed by me and for this poster, I was allowed to work freely without any restrictions. The poster aims to convey a sense of cultural richness, joy, and tranquility associated with the Bangla New Year celebration through the metaphor of a tea ceremony. It invites everyone to participate in the festivities, creating a shared experience that fosters cultural connection and serenity.</p>
+								<a href="Poster2.html" class="more">Read More</a>
+							</li>
+						</ul>
+					</div>
+					<!-- <div class="sidebar"> -->
+						<ul>
+							<li>
+								<h1>FEATURED POSTS</h1>
+								<a href="SE.html"><img src="images (2)/SE.jpg" alt=""></a>
+								<h2>Making Someone's Day</h2>
+							</li>
+							<li>
+								<h1>RECENT POSTS</h1>
+								<ul>
+									<li>
+										<a href="projects.html"><img src="images (2)/Tea.jpg" alt=""></a>
+										<h2>Elements of comfort</h2>
+									</li>
+								</ul>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div id="footer">
+			<div class="connect">
+				<div>
+					<h1>FOLLOW ME ON</h1>
+					<div>
+						<a href="https://www.facebook.com/nilanjana.shib/" class="facebook">facebook</a>
+						<a href="https://www.instagram.com/blue_margarita_?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==/" class="instagram">instagram</a>
+					
+					</div>
+				</div>
+			</div>
+			<div class="footnote">
+				<div>
+					<p>&copy; BY NILANJANA SHIB 23319125 | ALL RIGHTS RESERVED</p>
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+</html>

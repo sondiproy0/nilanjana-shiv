@@ -1,0 +1,109 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="css/style.css" type="text/css">
+    <link rel="stylesheet" type="text/css" href="css/mobile.css">
+    <script src="js/mobile.js" type="text/javascript"></script>
+    <script src="darkMode.js"></script>
+    <!-- JavaScript for pop-up -->
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            setTimeout(function () {
+                document.getElementById("popup").style.display = "block";
+            }, 2000); // Adjust the delay (in milliseconds) as needed
+        });
+
+        function closePopup() {
+            document.getElementById("popup").style.display = "none";
+        }
+    </script>
+</head>
+<body>
+    <div id="page">
+        <div id="header">
+            <div>
+                <a href="index.html" class="logo"><img src="images (2)/nilanjana.jpeg"alt=""></a>
+                <button id="darkModeToggle" onclick="toggleDarkMode()">Dark Mode</button>
+                <ul id="navigation">
+                    <li class="selected">
+                        <a href="index.html">Home</a>
+                    </li>
+                    <li>
+                        <a href="about.html">About</a>
+                    </li>
+                    <li class="menu">
+                        <a href="projects.html">Projects</a>
+                        <ul class="primary">
+                            <li>
+                                <a href="proj1.html">"দুধ চা"(Dudh Chaa)- Milk Tea</a>
+                            </li>
+                            <li>
+								<a href="proj2.html">"হলুদ চা"(Holud Cha)- Turmeric Tea</a>
+							</li>
+							<li>
+								<a href="proj3.html">"আদা চা"(Ada Cha)- Ginger Tea</a>
+							</li>
+							<li>
+								<a href="proj4.html">"রং চা"(Rong Cha)- Lemon Tea/ Green Tea</a>
+							</li>
+							<li>
+								<a href="proj5.html">"মসলা চা"(Moshla Cha)- Masala Tea</a>
+							</li>
+                        </ul>
+                    </li>
+                    <li class="menu">
+                        <a href="blog.html">Blog</a>
+                        <ul class="primary">
+                            <li>
+                                <a href="SE.html">A Social Experiment</a>
+                            </li>
+                            <li>
+								<a href="Poster1.html">A Musical Night</a>
+							</li>
+							<li>
+								<a href="Poster2.html">"শুভ নববর্ষ Tea Celebration: Sip by Sip, In Tradition We Delight"</a>
+							</li>                           
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="contact.html">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+		<div id="body">
+			<div class="header">
+				<div>
+					<h1>A Musical Night</h1>
+					<div class="article">
+						<img src="images (2)/Poster1.jpg" alt="">
+						<h1>Tokyo Dome City Concert Fest</h1>
+						<span>NOVEMBER 01, 2023- NOVEMBER 05, 2023</span>
+						<p>The overall tone of the poster is vibrant, energetic, and celebratory, capturing the essence of a music festival. The inclusion of diverse artists suggests a varied and exciting musical experience. The use of Japanese and English languages reflects the cultural diversity and international appeal of the event.</p>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div id="footer">
+			<div class="connect">
+				<div>
+					<h1>FOLLOW ME ON</h1>
+					<div>
+						<a href="https://www.facebook.com/nilanjana.shib/" class="facebook">facebook</a>
+						<a href="https://www.instagram.com/blue_margarita_?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==/" class="instagram">instagram</a>
+					
+					</div>
+				</div>
+			</div>
+			<div class="footnote">
+				<div>
+					<p>&copy; BY NILANJANA SHIB 23319125 | ALL RIGHTS RESERVED</p>
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
